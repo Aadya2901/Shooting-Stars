@@ -61,7 +61,10 @@ To create a **fully interactive, responsive, and educational front-end web app**
 
 ## 📸 Screenshots
 
-### Homepage
+### Landing Page
+![Homepage Placeholder](landing_page.png)
+
+### Features Carousel
 ![Homepage Placeholder](homepage.png)
 
 ### ImpactLab Simulation
@@ -69,12 +72,6 @@ To create a **fully interactive, responsive, and educational front-end web app**
 
 ### CosmoQuest Quiz
 ![Quiz Placeholder](cosmoquest.png)
-
-### Asteroid Preview & Results
-![Results Panel Placeholder](results_panel.png)
-
-### Info Modal
-![Info Modal Placeholder](info_modal.png)
 
 
 ## 📁 Folder Structure
