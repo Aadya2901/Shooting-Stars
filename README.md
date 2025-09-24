@@ -82,13 +82,15 @@ To create a **fully interactive, responsive, and educational front-end web app**
 ```
 shootingstars/
 ├── index.html # Homepage
+├── style.css
+├── script.js
 ├── impactlab.html # ImpactLab simulations
+├── impactlab.css
+├── impactlab.js
 ├── cosmoquest.html # Quiz & exploration
-├── css/
-│ └── style.css # Global CSS
-├── js/
-│ └── script.js # Global JS
-├── images/ # All images/icons
+├── cosmoquest.css
+├── cosmoquest.js
+├── images
 └── README.md # This file
 ```
 
