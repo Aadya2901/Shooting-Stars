@@ -12,7 +12,7 @@ To create a **fully interactive, responsive, and educational front-end web app**
 
 ## 🚀 Live Demo
 
-🔗 [Visit the Website](https://shootingstars.vercel.app/)  
+🔗 [Visit the Website](shooting-stars-opal.vercel.app)  
 
 ---
 
