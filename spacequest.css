@@ -1,11 +1,10 @@
 /* ================= Body ================= */
 body {
-  background: url('impactdesigner.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #fefefe;
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: #000;  /* fallback, canvas is main bg */
+  color: #fefefe;
+  font-family: Arial, sans-serif;
   overflow-x: hidden;
 }
 
@@ -42,8 +41,8 @@ body {
 
 /* ================= Quiz Container ================= */
 .quiz-container {
-  background-color: rgba(35, 23, 42, 0.2);
-  backdrop-filter: blur(5px);
+  background: rgba(35, 23, 42, 0.25); /* semi-transparent glass */
+  backdrop-filter: blur(6px);
   border: 2px solid #645c69;
   color: #fefefe;
   box-shadow: 0 0 25px rgba(100,92,105,0.6);
@@ -54,6 +53,8 @@ body {
   margin: 120px auto 50px auto;
   text-align: center;
   transition: transform 0.15s ease-out;
+  position: relative;
+  z-index: 2;
 }
 
 /* ================= Questions & Options ================= */
@@ -67,15 +68,16 @@ body {
   padding: 10px;
   margin: 5px 0;
   cursor: pointer;
-  background-color: #645c69;
-  border-radius: 5px;
-  transition: 0.3s;
-  box-shadow: 0 0 8px rgba(255,255,255,0.2);
+  background: rgba(0,0,0,0.4); /* transparent background */
+  border-radius: 6px;
+  transition: background 0.3s;
+  color: #fefefe;
+  box-shadow: 0 0 8px rgba(255,255,255,0.15);
 }
 
 .options label:hover {
-  background-color: #382046;
-  color: #d9d6da;
+  background: rgba(150, 80, 200, 0.7); /* purple highlight on hover */
+  color: #fff;
 }
 
 .options input[type="radio"] {
@@ -84,7 +86,7 @@ body {
 
 /* ================= Buttons ================= */
 .next-btn, .submit-btn {
-  background-color: #645c69;
+  background: rgba(100, 92, 105, 0.7);
   color: #fefefe;
   border: 2px solid #d9d6da;
   padding: 10px 20px;
@@ -97,8 +99,8 @@ body {
 }
 
 .next-btn:hover, .submit-btn:hover {
-  background-color: #382046;
-  color: #d9d6da;
+  background: rgba(150, 80, 200, 0.8);
+  color: #fff;
   box-shadow: 0 0 15px rgba(255,255,255,0.4);
 }
 
@@ -116,7 +118,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 0;
+  z-index: 0; /* stays behind quiz */
 }
 
 /* ================= Responsive ================= */
