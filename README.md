@@ -34,32 +34,27 @@ To create a **fully interactive, responsive, and educational front-end web app**
 ### *QuickStrike*
 - 🪐 Track meteors in real-time using **NASA NEO API** data  
 - Predefined asteroid presets for fast simulations  
-- Simulate potential impacts instantly  
-- **Screenshot:** ![QuickStrike Placeholder](quickstrike.jpg)  
+- Simulate potential impacts instantly   
 
 ### *ImpactInferno*  
 - 🌍 Interactive meteor impact simulator  
 - Click on the map or select an asteroid to see impact effects  
 - Adjustable parameters: size, speed, angle  
-- **Screenshot:** ![ImpactInferno Placeholder](impactinferno.jpg)  
 
 ### *OrbitOdyssey* 
 - 🛰️ Explore orbital mechanics interactively  
 - Navigate satellites and asteroid belts in 3D  
-- Learn real physics-based orbital trajectories  
-- **Screenshot:** ![OrbitOdyssey Placeholder](orbitodyssey.jpg)  
+- Learn real physics-based orbital trajectories   
 
 ### *StardustLab* 
 - 🧪 Educational hub about meteors and comets  
 - Learn about composition, velocity, and historical impacts  
 - Interactive learning modules and visuals  
-- **Screenshot:** ![StardustLab Placeholder](stardustlab.jpg)  
 
 ### *SpaceQuest* 
 - 🧩 Gamified quizzes to reinforce learning  
 - Test your knowledge about asteroids, impacts, and space science  
 - Dynamic next/previous navigation for smooth learning  
-- **Screenshot:** ![SpaceQuest Placeholder](spacequest.png)  
 
 ---
 
