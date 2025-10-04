@@ -165,7 +165,7 @@ map.on('click', function(e){
 });
 
 // ---------- NASA NEO API ----------
-const apiKey='oA78zCPQeXQ4Co2ypxQEPcSqusR0SJe1LlE5fGak'; // Replace with valid NASA API key
+const apiKey='DEMO_KEY'; // Replace with valid NASA API key
 const today=new Date().toISOString().split('T')[0];
 fetch(`https://api.nasa.gov/neo/rest/v1/feed?start_date=${today}&end_date=${today}&api_key=${apiKey}`)
 .then(r=>r.json())
@@ -200,5 +200,4 @@ function animateStars(){
   });
   requestAnimationFrame(animateStars);
 }
-
 animateStars();
