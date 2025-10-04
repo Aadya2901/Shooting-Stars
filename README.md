@@ -59,32 +59,33 @@ To create a **fully interactive, responsive, and educational front-end web app**
 - 🧩 Gamified quizzes to reinforce learning  
 - Test your knowledge about asteroids, impacts, and space science  
 - Dynamic next/previous navigation for smooth learning  
-- **Screenshot:** ![SpaceQuest Placeholder](cosmoquest.png)  
+- **Screenshot:** ![SpaceQuest Placeholder](spacequest.png)  
 
 ---
 
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](landing_page.png)
+![Landing Page](landing_page_ss.jpg)
 
 ### Features Carousel
-![Features Carousel](homepage.png)
+![Features Carousel](homepage_ss.jpg)
 
 ### QuickStrike
-![QuickStrike](quickstrike.jpg)
+![QuickStrike](quickstrike_ss.jpg)
 
 ### ImpactInferno
-![ImpactInferno](impactinferno.jpg)
+![ImpactInferno](impactinferno_ss.jpg)
 
 ### OrbitOdyssey
-![OrbitOdyssey](orbitodyssey.jpg)
+![OrbitOdyssey](orbitodyssey_ss.jpg)
 
 ### StardustLab
-![StardustLab](stardustlab.jpg)
+![StardustLab](stardustlab_ss.jpg)
 
 ### SpaceQuest
-![SpaceQuest](cosmoquest.png)
+![SpaceQuest](spacequest_ss.jpg)
+
 
 ---
 
