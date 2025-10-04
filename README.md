@@ -119,7 +119,7 @@ live-server
 - Go to Vercel → New Project → Import Git Repository
 - Framework: Other (HTML/CSS/JS)
 - Root Directory: /
-- Click Deploy → your site will be live at 🔗 https://shootingstars.vercel.app
+- Click Deploy → your site will be live at 🔗 [https://shooting-stars-opal.vercel.app/](https://shooting-stars-opal.vercel.app/)
 
 ---
 
