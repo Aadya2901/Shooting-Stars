@@ -1,6 +1,8 @@
 # 🌠 ShootingStars – Asteroid Impact Simulator & Space Explorer
 
-An interactive web app that lets users **simulate asteroid impacts, explore cosmic trajectories, and learn about meteor showers and comets**. This website features asteroid presets, custom input controls, impact preview cards, quizzes, info modals, and detailed results panels — all wrapped in a cosmic, educational, and visually appealing interface.
+An interactive web app that lets users **simulate asteroid impacts, explore cosmic trajectories, and learn about meteor showers and comets**. 
+
+This website features asteroid presets, custom input controls, impact preview cards, quizzes, info modals, and detailed results panels — all wrapped in a cosmic, educational, and visually appealing interface.
 
 ---
 
@@ -12,7 +14,8 @@ To create a **fully interactive, responsive, and educational front-end web app**
 
 ## 🚀 Live Demo
 
-🔗 [Visit the Website]([shooting-stars-opal.vercel.app](https://shooting-stars-opal.vercel.app/))  
+🔗 [Visit the Website](https://shooting-stars-opal.vercel.app/)  
+  
 
 ---
 
@@ -20,74 +23,121 @@ To create a **fully interactive, responsive, and educational front-end web app**
 
 - HTML5 + CSS3 + JavaScript (ES6)  
 - Local animations and interactive elements  
-- Fully front-end modular structure  
+- Modular front-end structure for maintainability  
 - No backend or database required  
+- **NASA NEO API** for real-time asteroid and near-Earth object data
 
 ---
 
 ## 🌟 Features
 
-###  *QuickStrike*
-- 🪐 Asteroid Presets
-- Predefined small, medium, and large asteroid scenarios  
-- Quick simulations with realistic impact effects    
+### *QuickStrike*
+- 🪐 Track meteors in real-time using **NASA NEO API** data  
+- Predefined asteroid presets for fast simulations  
+- Simulate potential impacts instantly  
+- **Screenshot:** ![QuickStrike Placeholder](quickstrike.jpg)  
 
-### *Impact Designer*  
-- 🎛️ Custom Input Controls
-- Interactive sliders for diameter, velocity, impact angle, latitude, and longitude  
-- Fine-tune asteroid parameters for precise simulations  
+### *ImpactInferno*  
+- 🌍 Interactive meteor impact simulator  
+- Click on the map or select an asteroid to see impact effects  
+- Adjustable parameters: size, speed, angle  
+- **Screenshot:** ![ImpactInferno Placeholder](impactinferno.jpg)  
 
-### *MiniBlast* 
-- 🎬 Impact Preview Card
-- Miniature canvas previews of asteroid strikes  
-- Energy scale visualization for quick insights   
+### *OrbitOdyssey* 
+- 🛰️ Explore orbital mechanics interactively  
+- Navigate satellites and asteroid belts in 3D  
+- Learn real physics-based orbital trajectories  
+- **Screenshot:** ![OrbitOdyssey Placeholder](orbitodyssey.jpg)  
+
+### *StardustLab* 
+- 🧪 Educational hub about meteors and comets  
+- Learn about composition, velocity, and historical impacts  
+- Interactive learning modules and visuals  
+- **Screenshot:** ![StardustLab Placeholder](stardustlab.jpg)  
 
 ### *SpaceQuest* 
-- 🧩 Asteroid Quiz
-- Test your knowledge about space and asteroid impacts  
-- Dynamic Next/Previous navigation for smooth learning  
-
-### *DeepDive*
-- ℹ️ Info Modal
-- Pop-up modal with additional asteroid details  
-- Explore mass, composition, velocity, and impact information  
-
-### *AstroMetrics* 
-- 📊 Results & Legends Panel
-- Displays energy released, crater size, mass, velocity, and blast/thermal legends  
-- Color-coded visual representation for easy understanding  
+- 🧩 Gamified quizzes to reinforce learning  
+- Test your knowledge about asteroids, impacts, and space science  
+- Dynamic next/previous navigation for smooth learning  
+- **Screenshot:** ![SpaceQuest Placeholder](cosmoquest.png)  
 
 ---
 
 ## 📸 Screenshots
 
 ### Landing Page
-![Homepage Placeholder](landing_page.png)
+![Landing Page](landing_page.png)
 
 ### Features Carousel
-![Homepage Placeholder](homepage.png)
+![Features Carousel](homepage.png)
 
-### ImpactLab Simulation
-![ImpactLab Placeholder](impactlab.png)
+### QuickStrike
+![QuickStrike](quickstrike.jpg)
 
-### CosmoQuest Quiz
-![Quiz Placeholder](cosmoquest.png)
+### ImpactInferno
+![ImpactInferno](impactinferno.jpg)
 
+### OrbitOdyssey
+![OrbitOdyssey](orbitodyssey.jpg)
+
+### StardustLab
+![StardustLab](stardustlab.jpg)
+
+### SpaceQuest
+![SpaceQuest](cosmoquest.png)
+
+---
 
 ## 📁 Folder Structure
 
 ```
-shootingstars/
-├── index.html # Homepage
-├── style.css
-├── script.js
-├── impactlab.html # ImpactLab simulations
-├── impactlab.css
-├── impactlab.js
-├── cosmoquest.html # Quiz & exploration
-├── cosmoquest.css
-├── cosmoquest.js
-├── images
+shooting-stars/
+├── index.html               # Homepage & Landing Page
+├── style.css                # Global styles for the website
+├── script.js                # Global JavaScript for homepage and shared interactions
+│
+├── impactinferno.html       # ImpactInferno simulation page
+├── impactinferno.css        # Styles specific to ImpactInferno
+├── impactinferno.js         # Logic for meteor impact simulation & NASA API integration
+├── impactinferno.jpg        # Screenshot or visual for ImpactInferno feature
+├── impactdesigner.jpg       # Image asset for UI/UX showcase
+│
+├── impactlab.html           # ImpactLab simulations page (custom asteroid simulations)
+├── impactlab.css            # Styles specific to ImpactLab
+├── impactlab.js             # JavaScript for custom input controls & mini-blast preview
+├── impactlab.png            # Screenshot or visual for ImpactLab
+│
+├── quickstrike.html         # QuickStrike page (predefined asteroid presets)
+├── quickstrike.css          # Styles for QuickStrike
+├── quickstrike.js           # Logic for quick meteor simulations
+├── quickstrike.jpg          # Screenshot of QuickStrike feature
+├── quickstrike_bg.jpg       # Background image for QuickStrike page
+│
+├── stardustlab.html         # Stardust Lab (educational hub) page
+├── stardustlab.css          # Styles for Stardust Lab
+├── stardustlab.js           # JS for interactive educational content
+├── stardustlab.jpg          # Screenshot or visual for Stardust Lab
+│
+├── cosmoquest.html          # SpaceQuest quizzes & interactive learning
+├── cosmoquest.css           # Styles for CosmoQuest
+├── cosmoquest.js            # JS for quizzes & navigation
+├── cosmoquest.png           # Screenshot for CosmoQuest
+│
+├── images/                  # Folder containing all static assets
+│   ├── 457.jpg
+│   ├── astrometrics.jpg
+│   ├── background.png
+│   ├── bg.jpg
+│   ├── deepdive.jpg
+│   ├── earth.png
+│   ├── landing_page.png
+│   ├── miniblast.jpg
+│   ├── orbitodyssey.jpg
+│   ├── rock.png
+│   ├── rock2.png
+│   ├── rock3.png
+│   ├── rock4.png
+│   └── ...additional images
 └── README.md # This file
 ```
 
@@ -101,8 +151,8 @@ shootingstars/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/shootingstars.git
-cd shootingstars
+git clone https://github.com/<your-username>/shooting-stars.git
+cd shooting-stars
 ```
 
 ### 2. Open Locally
@@ -127,9 +177,9 @@ live-server
 
 | Name | Role |
 |------|------|
-| @aadya2901 | Homepage, Landing Page, Deployment    |
-| @iam-anish15 | Homepage, Navbar, Footer, Carousel  |
-| @ananyamishra13 | ImpactLab, CosmoQuest, MiniBlast |
+| @aadya2901 | Landing Page, Deployment, Documentation, SpaceQuest |
+| @iam-anish15 | Homepage,  Carousel, StardustLab, ImpactInferno |
+| @ananyamishra13 | CosmoPilot, QuickStrike, ImpactLab, MiniBlast |
 
 ---
 
